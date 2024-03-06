@@ -1,1 +1,42 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to bottom right, #89CFF0, #98FB98);
+        }
+        img.profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        h1 {
+            margin: 20px 0 0;
+        }
+        .blurb {
+            max-width: 600px;
+            margin: 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="assets/me.png" alt="Profile Picture" class="profile-pic">
+    <h1>Ryan Dewey</h1>
+    <p class="blurb">Senior Backend Engineer</p>
+
+</body>
+</html>
